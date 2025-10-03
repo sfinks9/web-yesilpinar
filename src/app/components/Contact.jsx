@@ -19,9 +19,12 @@ export default function Contact() {
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">Hızlı Rezervasyon</h3>
             <p className="text-gray-300 mb-4">Anında rezervasyon yapın</p>
-            <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg transition-colors">
+            <a 
+              href="tel:+905551234567" 
+              className="inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg transition-colors text-center"
+            >
               Rezervasyon Yap
-            </button>
+            </a>
           </div>
 
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 text-center border border-green-500/20 hover:border-green-500/50 transition-all duration-300 card-item">
@@ -32,9 +35,22 @@ export default function Contact() {
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">Fiyat Bilgisi</h3>
             <p className="text-gray-300 mb-4">Güncel fiyatları öğrenin</p>
-            <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg transition-colors">
-              Fiyatları Gör
-            </button>
+            <div className="flex space-x-2">
+              <a 
+                href="tel:+905559876543" 
+                className="flex-1 bg-green-500 hover:bg-green-600 text-white px-3 py-2 rounded-lg transition-colors text-center text-sm"
+              >
+                📞 Ara
+              </a>
+              <a 
+                href="https://wa.me/905559876543?text=Merhaba! Halısaha fiyat bilgilerini öğrenmek istiyorum." 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex-1 bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg transition-colors text-center text-sm"
+              >
+                💬 WhatsApp
+              </a>
+            </div>
           </div>
 
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 text-center border border-green-500/20 hover:border-green-500/50 transition-all duration-300 card-item">
@@ -45,9 +61,22 @@ export default function Contact() {
             </div>
             <h3 className="text-xl font-semibold text-white mb-2">Turnuvalar</h3>
             <p className="text-gray-300 mb-4">Turnuva bilgileri</p>
-            <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg transition-colors">
-              Turnuva Takvimi
-            </button>
+            <div className="flex space-x-2">
+              <a 
+                href="tel:+905559876543" 
+                className="flex-1 bg-green-500 hover:bg-green-600 text-white px-3 py-2 rounded-lg transition-colors text-center text-sm"
+              >
+                📞 Ara
+              </a>
+              <a 
+                href="https://wa.me/905559876543?text=Merhaba! Turnuva takvimi ve bilgileri hakkında bilgi almak istiyorum." 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex-1 bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg transition-colors text-center text-sm"
+              >
+                💬 WhatsApp
+              </a>
+            </div>
           </div>
         </div>
 
@@ -67,7 +96,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-gray-400 text-sm">Rezervasyon Hattı</p>
-                  <p className="text-white text-lg font-semibold">+90 555 123 45 67</p>
+                  <a href="tel:+905551234567" className="text-white text-lg font-semibold hover:text-green-400 transition-colors cursor-pointer">+90 555 123 45 67</a>
                 </div>
               </div>
 
@@ -79,7 +108,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-gray-400 text-sm">Genel Bilgi</p>
-                  <p className="text-white text-lg font-semibold">+90 555 987 65 43</p>
+                  <a href="tel:+905559876543" className="text-white text-lg font-semibold hover:text-green-400 transition-colors cursor-pointer">+90 555 987 65 43</a>
                 </div>
               </div>
 
@@ -93,8 +122,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-gray-400 text-sm">Adres</p>
-                  <p className="text-white text-lg">Spor Kompleksi Caddesi No: 25/A</p>
-                  <p className="text-white text-lg">Beşiktaş, İstanbul</p>
+                  <p className="text-white text-lg">Yeşilpınar, Girne Cd No:163, 34065</p>
+                  <p className="text-white text-lg"> Eyüpsultan/İstanbul</p>
                 </div>
               </div>
 
@@ -129,7 +158,7 @@ export default function Contact() {
             {/* WhatsApp Button */}
             <div className="mt-8">
               <a 
-                href="https://wa.me/905551234567" 
+                href="https://wa.me/905551234567?text=Merhaba! Halısaha rezervasyonu yapmak istiyorum. Müsait saatler ve fiyatlar hakkında bilgi alabilir miyim?" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-3 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg transition-colors whatsapp-btn"
@@ -205,7 +234,7 @@ export default function Contact() {
             {/* Emergency Contact */}
             <div className="mt-8 bg-red-500/10 border border-red-500/30 rounded-lg p-4">
               <h4 className="text-red-400 font-semibold mb-2">Acil Durum / Maç Günü</h4>
-              <p className="text-white text-lg font-semibold">+90 555 999 88 77</p>
+              <a href="tel:+905559998877" className="text-white text-lg font-semibold hover:text-red-400 transition-colors cursor-pointer">+90 555 999 88 77</a>
               <p className="text-gray-400 text-sm">24 saat ulaşılabilir</p>
             </div>
           </div>
@@ -218,7 +247,7 @@ export default function Contact() {
             <iframe
               title="Futbol Sahası Konumu"
               className="w-full h-96 md:h-[500px] rounded-2xl shadow-2xl border border-green-500/20"
-              src="https://maps.google.com/maps?q=Be%C5%9Fikta%C5%9F,%C4%B0stanbul&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.9961082326686!2d28.916330276244874!3d41.069077715678596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab0ed9a4146ef%3A0x6c16f6d1b227bce6!2zWWXFn2lscMSxbmFyLCBHaXJuZSBDZCBObzoxNjMsIDM0MDY1IEV5w7xwc3VsdGFuL8Swc3RhbmJ1bA!5e0!3m2!1sen!2str!4v1759498734376!5m2!1sen!2str"
               loading="lazy"
             ></iframe>
             
@@ -240,7 +269,7 @@ export default function Contact() {
         </div>
 
         {/* Social Media */}
-        <div className="text-center mt-16 social-media">
+        {/* <div className="text-center mt-16 social-media">
           <h3 className="text-xl font-bold text-white mb-6">Bizi Takip Edin</h3>
           <div className="flex justify-center space-x-6">
             <a href="#" className="w-12 h-12 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center transition-colors social-item">
@@ -259,7 +288,7 @@ export default function Contact() {
               </svg>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
   );
 }
