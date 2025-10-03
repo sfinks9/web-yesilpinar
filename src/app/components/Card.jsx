@@ -1,7 +1,14 @@
-export default function Card() {
-  <div className="advantage-card p-8 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl shadow-2xl border border-gray-700 transform-gpu">
-    <div className="text-4xl mb-4">⚽</div>
-    <h3 className="text-xl font-bold mb-3 text-green-light">Yeni Çim</h3>
-    <p className="text-gray-300">Profesyonel kalite yeni çim.</p>
-  </div>;
+export default function Card({ advantage,id }) {
+  return (
+    <div id={id} className="advantage-card rounded-xl shadow-2xl border-2 border-green-700 flex flex-col text-justify">
+      <img src={advantage.image} className="h-80 object-cover rounded-t-xl opacity-70" />
+      <div className="p-6">
+        <div className="">{advantage.icon}</div>
+        <h3 className="text-xl font-semibold mb-3 text-green-light">
+          {advantage.title}
+        </h3>
+        <p className="text-gray-300 md:my-2">{advantage.description}</p>
+      </div>
+    </div>
+  );
 }
