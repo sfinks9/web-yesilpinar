@@ -19,11 +19,11 @@ export default function Section({ className, title = "", children }) {
         rotationX: -90,
         stagger: 0.05,
         duration: 1,
-        ease: "back.out(1.7)",
+        ease: "back.out",
         scrollTrigger: {
           trigger: el,
           start: "top 95%",
-          toggleActions: "play none none reverse",
+          // toggleActions: "play none none reverse",
         },
       });
     });

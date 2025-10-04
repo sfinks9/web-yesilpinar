@@ -102,12 +102,12 @@ export default function Gallery() {
   }, []);
 
   return (
-    <div className="container text-center">
+    <section id="gallery" className="container text-center">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {images.map((img,index) => (
           <SingleImage key={img.id} item={img} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

@@ -97,12 +97,12 @@ export default function Advantages() {
   }, []);
 
   return (
-    <div className="container text-center">
+    <section id="advantages" className="container text-center">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {advantages.map((advantage) => (
           <Card advantage={advantage} key={advantage.id} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
