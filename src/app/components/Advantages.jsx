@@ -41,7 +41,7 @@ export default function Advantages() {
       ),
       title: "Maç Kaydı",
       description:
-        "Oynadığınız maçlar profesyonel kamera sistemiyle HD kalitede kaydedilir. Böylece performansınızı analiz edebilir ve gelişiminizi takip edebilirsiniz. Ayrıca en güzel gollerinizi sosyal medyada paylaşarak anılarınızı ölümsüzleştirebilirsiniz. Hem arkadaşlarınızla eğlenmek hem de kendinizi geliştirmek için eşsiz bir fırsat sunar.",
+        "Oynadığınız maçlar 'Sosyal Halı saha' sistemi sayesinde profesyonel kamera sistemiyle HD kalitede kaydedilir. Böylece performansınızı analiz edebilir ve gelişiminizi takip edebilirsiniz. Hem arkadaşlarınızla eğlenmek hem de kendinizi geliştirmek için eşsiz bir fırsat sunar.",
       image: "/soccer-filming.jpg",
     },
     {
