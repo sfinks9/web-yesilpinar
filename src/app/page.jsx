@@ -14,15 +14,15 @@ export default function Home() {
         <Welcome />
       </Section>
 
-      <Section title="Galeri" className="bg-gray-dark">
+      <Section title="Halısaha Galeri" className="bg-gray-dark">
         <Gallery />
       </Section>
 
-        <Section title="Avantajlarımız" className="bg-gray-medium">
+        <Section title="Halısaha Avantajlarımız" className="bg-gray-medium">
         <Advantages />
       </Section>
 
-        <Section title="Bize ulaşın" className="bg-gray-dark">
+        <Section title="Halısaha Rezervasyon İletişim" className="bg-gray-dark">
         <Contact />
       </Section>
 

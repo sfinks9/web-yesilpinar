@@ -3,8 +3,6 @@ import { useGSAP } from "@gsap/react";
 import { SplitText } from "gsap/SplitText";
 import gsap from "gsap";
 export default function Welcome() {
-
-
   useGSAP(() => {
     gsap.registerPlugin(SplitText);
     const tl = gsap.timeline();
@@ -66,33 +64,36 @@ export default function Welcome() {
     );
   }, []);
   return (
-    <section id="welcome" className="grid grid-cols-12 items-center">
+    <header id="welcome" className="grid grid-cols-12 items-center mt-5">
       <div className="left-side lg:py-5 lg:px-16 col-span-12 lg:col-span-6 flex flex-col items-center lg:items-start">
         <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold drop-shadow-2xl text-center md:text-start  text-green-light bg-clip-text ">
-          Yeşilpınar Halı Saha Tesisleri <br/>
+          <span className="text-black">Modern Futbol</span> Yeşilpınar Tesisleri
         </h1>
         <p className="mt-4 text-lg text-center lg:text-start text-gray-300">
-          Arkadaşlarınla buluş, kaliteli zeminde oyna ve maç sonrası konforu
-          doyasıya yaşa. Özel soyunma odaları, kusursuz çim kalitesi ve
-          profesyonel atmosfer seni bekliyor.
+          Profesyonel halısaha kiralık hizmeti. Arkadaşlarınla buluşun, kaliteli
+          zeminde oynayın ve maç sonrası konforun doyasıya yaşayın. Modern halı
+          saha tesislerimizde özel soyunma odaları, kusursuz çim kalitesi ve
+          profesyonel atmosfer sizi bekliyor.
         </p>
         <div className="mt-6">
           <a
             href="#contact"
             id="reservation"
             className="bg-green-light hover:bg-green-600 text-black font-bold py-3 px-8 rounded-2xl md:my-10"
+            aria-label="Halısaha rezervasyon formu için iletişim bölümüne git"
           >
-            Rezervasyon Yap
+            Halısaha Rezervasyon Yap
           </a>
         </div>
       </div>
 
-      <div className="right-side col-span-12 p-4 lg:col-span-6 mt-16 lg:mt-0 lg:p-2">
+      <div className="right-side col-span-12 p-6 lg:col-span-6 mt-16 lg:mt-0 lg:p-2">
         <img
-          src="/soccer.svg"
-          alt="Halı Saha"
+          src="/soccer-player.svg"
+          alt="Modern halısaha tesisi - kaliteli halı saha kiralık hizmeti"
+          loading="eager"
         />
       </div>
-    </section>
+    </header>
   );
 }

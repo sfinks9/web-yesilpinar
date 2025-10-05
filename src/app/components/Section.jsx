@@ -32,9 +32,11 @@ export default function Section({ className, title = "", children }) {
     <section
       className={`min-h-screen flex flex-col items-center py-14 px-6 ${className}`}
     >
-      <h2 className="section-title text-3xl md:text-5xl font-bold text-green-light mb-8">
-        {title}
-      </h2>
+      {title && (
+        <h2 className="section-title text-3xl md:text-5xl font-bold text-green-light mb-8">
+          {title}
+        </h2>
+      )}
       {children}
     </section>
   );

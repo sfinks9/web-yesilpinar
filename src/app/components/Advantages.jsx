@@ -19,9 +19,9 @@ export default function Advantages() {
       icon: (
         <LandPlot className="w-12 h-12 border-b-2 border-green-600 p-2 rounded-full mb-1" />
       ),
-      title: "Yeni Çim",
+      title: "Profesyonel Halısaha Çimi",
       description:
-        "Profesyonel kalite yeni çim sayesinde top kontrolü ve oyun keyfi üst seviyede. Sahanın her noktasında aynı performansı alabilir, kayma veya bozulma olmadan futbolun tadını çıkarabilirsiniz. Oyuncular için sakatlanma riskini azaltan yapısı sayesinde güvenli bir oyun deneyimi sunar. Her maçta kendinizi profesyonel bir stadyum atmosferinde hissedeceksiniz.",
+        "Modern halısaha tesisimizde profesyonel kalite halı saha çimi sayesinde top kontrolü ve oyun keyfi üst seviyede. Halısahanın her noktasında aynı performansı alabilir, kayma veya bozulma olmadan futbolun tadını çıkarabilirsiniz. Oyuncular için sakatlanma riskini azaltan halı saha yapısı sayesinde güvenli bir oyun deneyimi sunar. Her maçta kendinizi profesyonel bir stadyum atmosferinde hissedeceksiniz.",
       image: "/soccer-field.jpg",
     },
     {
@@ -29,9 +29,9 @@ export default function Advantages() {
       icon: (
         <ShowerHead className="w-12 h-12 border-b-2 border-green-600 p-2 rounded-full mb-1" />
       ),
-      title: "Özel Odalar",
+      title: "Halısaha Soyunma Odaları",
       description:
-        "Takımınıza özel hazırlanmış temiz odalarda maç öncesi ve sonrası konforlu bir alan bulabilirsiniz. Her odada özel tuvalet, duş ve kişisel eşyalarınızı güvenle bırakabileceğiniz dolaplar mevcuttur. Rahat atmosfer sayesinde takım ruhunu güçlendiren bir hazırlık süreci geçirirsiniz. Maç sonrası dinlenmek ve toparlanmak için de ideal bir ortam sağlar.",
+        "Halısaha tesisimizde takımınıza özel hazırlanmış temiz soyunma odalarında maç öncesi ve sonrası konforlu bir alan bulabilirsiniz. Her halısaha odasında özel tuvalet, duş ve kişisel eşyalarınızı güvenle bırakabileceğiniz dolaplar mevcuttur. Rahat atmosfer sayesinde takım ruhunu güçlendiren bir hazırlık süreci geçirirsiniz. Halı saha maçı sonrası dinlenmek ve toparlanmak için de ideal bir ortam sağlar.",
       image: "/soccer-locker-room.jpg",
     },
     {
