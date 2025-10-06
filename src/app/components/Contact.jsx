@@ -113,6 +113,7 @@ export default function Contact() {
           <p className="text-gray-300 mb-4">Anında rezervasyon yapın</p>
           <a
             href="tel:+90536936118"
+            onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
             className="inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg transition-colors text-center"
           >
             Rezervasyon Yap
@@ -142,6 +143,7 @@ export default function Contact() {
           <div className="flex space-x-2">
             <a
               href="tel:+905369356618"
+              onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
               className="flex-1 bg-green-500 hover:bg-green-600 text-white px-3 py-2 rounded-lg transition-colors text-center text-sm"
             >
               📞 Ara
@@ -150,6 +152,7 @@ export default function Contact() {
               href="https://wa.me/905369356618?text=Merhaba! Halısaha fiyat bilgilerini öğrenmek istiyorum."
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
               className="flex-1 bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg transition-colors text-center text-sm"
             >
               💬 WhatsApp
@@ -178,6 +181,7 @@ export default function Contact() {
           <div className="flex space-x-2">
             <a
               href="tel:+905369356618"
+              onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
               className="flex-1 bg-green-500 hover:bg-green-600 text-white px-3 py-2 rounded-lg transition-colors text-center text-sm"
             >
               📞 Ara
@@ -185,6 +189,7 @@ export default function Contact() {
             <a
               href="https://wa.me/905369356618?text=Merhaba! Turnuva takvimi ve bilgileri hakkında bilgi almak istiyorum."
               target="_blank"
+              onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
               rel="noopener noreferrer"
               className="flex-1 bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg transition-colors text-center text-sm"
             >
@@ -223,7 +228,8 @@ export default function Contact() {
               <div>
                 <p className="text-gray-400 text-sm">Rezervasyon Hattı</p>
                 <a
-                  href="tel:+905551234567"
+                  href="tel:+902125387473"
+                  onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
                   className="text-white text-lg font-semibold hover:text-green-400 transition-colors cursor-pointer"
                 >
                   0(212) 538 74 73
@@ -250,7 +256,8 @@ export default function Contact() {
               <div>
                 <p className="text-gray-400 text-sm">Genel Bilgi</p>
                 <a
-                  href="tel:+905559876543"
+                  href="tel:+905369356618"
+                  onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
                   className="text-white text-lg font-semibold hover:text-green-400 transition-colors cursor-pointer"
                 >
                   +90 536 935 66 18
@@ -343,6 +350,7 @@ export default function Contact() {
             <a
               href="https://wa.me/905369356618?text=Merhaba! Halısaha rezervasyonu yapmak istiyorum. Müsait saatler ve fiyatlar hakkında bilgi alabilir miyim?"
               target="_blank"
+              onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-3 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg transition-colors whatsapp-btn"
             >
@@ -473,7 +481,6 @@ export default function Contact() {
               <p className="text-white font-medium">LED Aydınlatma</p>
             </div>
           </div>
-
         </div>
       </div>
 
@@ -494,6 +501,7 @@ export default function Contact() {
           <div className="absolute bottom-4 right-4">
             <a
               href="https://maps.google.com/maps?q=Beşiktaş,İstanbul&t=&z=15"
+              onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg shadow-lg transition-colors flex items-center space-x-2"
@@ -516,7 +524,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-
     </section>
   );
 }
