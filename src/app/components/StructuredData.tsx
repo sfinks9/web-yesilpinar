@@ -1,120 +1,76 @@
 "use client";
 
 export default function StructuredData() {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": "https://halisaha-kiralik.com/#business",
-    "name": "Halısaha Kiralık - Modern Futbol Sahası",
-    "description": "Profesyonel halısaha kiralık hizmeti. Modern tesisler, kaliteli zemin, uygun fiyatlar ve kolay rezervasyon imkanı.",
-    "url": "https://halisaha-kiralik.com",
-    "telephone": "+90-XXX-XXX-XXXX", // Gerçek telefon numarası eklenecek
-    "email": "info@halisaha-kiralik.com", // Gerçek email eklenecek
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Örnek Mahallesi, Spor Caddesi No: 123", // Gerçek adres eklenecek
-      "addressLocality": "İstanbul", // Gerçek şehir eklenecek
-      "addressRegion": "İstanbul",
-      "postalCode": "34000", // Gerçek posta kodu eklenecek
-      "addressCountry": "TR"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "41.0082", // Gerçek koordinatlar eklenecek
-      "longitude": "28.9784"
-    },
-    "image": [
-      "https://halisaha-kiralik.com/soccer-field.jpg"
-    ],
-    "priceRange": "$$",
-    "openingHours": [
-      "Mo-Su 06:00-24:00"
-    ],
-    "sameAs": [
-      "https://www.facebook.com/halisaha-kiralik", // Gerçek sosyal medya linkleri eklenecek
-      "https://www.instagram.com/halisaha-kiralik"
-    ],
-    "areaServed": {
-      "@type": "City",
-      "name": "İstanbul" // Hizmet verilen şehir/bölge
-    },
-    "serviceType": "Halısaha Kiralık",
-    "additionalType": "https://schema.org/SportsActivityLocation",
-    "amenityFeature": [
-      {
-        "@type": "LocationFeatureSpecification",
-        "name": "Parking",
-        "value": true
+  const structuredData = [
+    {
+      "@context": "[https://schema.org](https://schema.org)",
+      "@type": "LocalBusiness",
+      "@id":
+        "[https://yesilpinarhalisaha.com/#business](https://yesilpinarhalisaha.com/#business)",
+      name: "Yeşilpınar Spor Kulübü - Halı Saha Kiralık",
+      description:
+        "Eyüp Yeşilpınar'da modern, ışıklı halı saha. Online rezervasyonla hemen futbol keyfine başla!",
+      url: "[https://yesilpinarhalisaha.com](https://yesilpinarhalisaha.com)",
+      telephone: "+90-536-935-6618",
+      email:
+        "[yesilpinarspor1@gmail.com](mailto:yesilpinarspor1@gmail.com)",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Yeşilpınar Mahallesi, Eyüpsultan",
+        addressLocality: "İstanbul",
+        addressRegion: "İstanbul",
+        postalCode: "34065",
+        addressCountry: "TR",
       },
-      {
-        "@type": "LocationFeatureSpecification", 
-        "name": "Changing Rooms",
-        "value": true
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: "41.0662",
+        longitude: "28.9364",
       },
-      {
-        "@type": "LocationFeatureSpecification",
-        "name": "Equipment Rental",
-        "value": true
-      },
-      {
-        "@type": "LocationFeatureSpecification",
-        "name": "Night Lighting",
-        "value": true
-      }
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Halısaha Kiralık Hizmetleri",
-      "itemListElement": [
+      image: [
+        "[https://yesilpinarhalisaha.com/logo.png](https://yesilpinarhalisaha.com/logo.png)",
+        "[https://yesilpinarhalisaha.com/soccer-field.jpg](https://yesilpinarhalisaha.com/soccer-field.jpg)",
+      ],
+      priceRange: "$$",
+      openingHours: ["Mo-Su 06:00-24:00"],
+      sameAs: [
+        "[https://www.instagram.com/yesilpinarhalisaha](https://www.instagram.com/yesilpinarhalisaha)",
+        "[https://www.facebook.com/yesilpinarhalisaha](https://www.facebook.com/yesilpinarhalisaha)",
+      ],
+      serviceType: "Halısaha Kiralık",
+      additionalType:
+        "[https://schema.org/SportsActivityLocation](https://schema.org/SportsActivityLocation)",
+      amenityFeature: [
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Saatlik Halısaha Kiralık",
-            "description": "Modern halısaha tesislerinde saatlik kiralama hizmeti"
-          }
+          "@type": "LocationFeatureSpecification",
+          name: "Parking",
+          value: true,
         },
         {
-          "@type": "Offer", 
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Günlük Halısaha Kiralık", 
-            "description": "Özel etkinlikler için günlük halısaha kiralama"
-          }
+          "@type": "LocationFeatureSpecification",
+          name: "Changing Rooms",
+          value: true,
         },
         {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Turnuva Organizasyonu",
-            "description": "Futbol turnuvaları ve özel etkinlikler için organizasyon hizmeti"
-          }
-        }
-      ]
+          "@type": "LocationFeatureSpecification",
+          name: "Night Lighting",
+          value: true,
+        },
+      ],
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.8",
+        reviewCount: "127",
+      },
     },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Örnek Kullanıcı"
-        },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "reviewBody": "Harika bir halısaha! Kaliteli zemin ve modern tesisler. Kesinlikle tavsiye ederim."
-      }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "reviewCount": "127",
-      "bestRating": "5",
-      "worstRating": "1"
-    }
-  };
+    {
+      "@context": "[https://schema.org](https://schema.org)",
+      "@type": "Organization",
+      name: "Yeşilpınar Spor Kulübü",
+      url: "[https://yesilpinarhalisaha.com](https://yesilpinarhalisaha.com)",
+      logo: "[https://yesilpinarhalisaha.com/logo.png](https://yesilpinarhalisaha.com/logo.png)",
+    },
+  ];
 
   return (
     <script

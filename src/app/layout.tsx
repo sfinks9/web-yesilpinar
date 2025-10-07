@@ -4,11 +4,11 @@ import StructuredData from "./components/StructuredData";
 
 export const metadata: Metadata = {
   title: {
-    default: "Halısaha Kiralık | Modern Futbol Sahası Rezervasyonu",
+    default: "Yeşilpınar Spor Kulübü | Halı Saha Kirala ",
     template: "%s | Halısaha Kiralık"
   },
-  description: "Profesyonel halısaha kiralık hizmeti. Modern tesisler, uygun fiyatlar, kolay rezervasyon. 7/24 halı saha kiralama için hemen iletişime geçin. Kaliteli futbol sahası deneyimi.",
-  keywords: ["halısaha", "halı saha", "kiralık", "futbol sahası", "rezervasyon", "spor tesisi", "futbol", "halısaha kiralık", "spor sahası"],
+  description: "Eyüp/Yeşilpınar Halı Saha, Eyüpsultan'da modern, ışıklı çim sahasıyla futbol keyfi sunuyor. Online rezervasyon yap, hemen oyna!",
+  keywords: ["halısaha", "halı saha", "kiralık", "futbol sahası", "rezervasyon","Yeşilpınar Spor Kulübü", "spor tesisi", "futbol", "halısaha kiralık", "spor sahası"],
   authors: [{ name: "Halısaha Kiralık" }],
   creator: "Halısaha Kiralık",
   publisher: "Halısaha Kiralık",
@@ -63,6 +63,7 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
+        <link rel="icon" href="/logo.png" type="image/png" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17626766486"></script>
         <script
           dangerouslySetInnerHTML={{
