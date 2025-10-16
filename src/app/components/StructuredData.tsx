@@ -7,7 +7,7 @@ export default function StructuredData() {
       "@type": "LocalBusiness",
       "@id":
         "[https://yesilpinarhalisaha.com/#business](https://yesilpinarhalisaha.com/#business)",
-      name: "Yeşilpınar Spor Kulübü - Halı Saha Kiralık",
+      name: "Yeşilpınar Spor Kulübü - Yeşilpınar Halı Saha Kiralık",
       description:
         "Eyüp Yeşilpınar'da modern, ışıklı halı saha. Online rezervasyonla hemen futbol keyfine başla!",
       url: "[https://yesilpinarhalisaha.com](https://yesilpinarhalisaha.com)",

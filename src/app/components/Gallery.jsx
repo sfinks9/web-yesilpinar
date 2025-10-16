@@ -7,47 +7,47 @@ export default function Gallery() {
   const images = [
     {
       id: 1,
-      image: "/soccer-field.jpg",
+      image: "/halisaha1.jpeg",
       alt: "Modern halısaha tesisi - kaliteli halı saha kiralık genel görünüm",
     },
     {
       id: 2,
-      image: "/soccer-field.jpg",
+      image: "/halisaha2.jpeg",
       alt: "Halısaha çim kalitesi - profesyonel futbol sahası zemini",
     },
     {
       id: 3,
-      image: "/soccer-field.jpg",
+      image: "/halisaha3.jpeg",
       alt: "Gece aydınlatmalı halısaha - 7/24 halı saha kiralık",
     },
     {
       id: 4,
-      image: "/soccer-field.jpg",
+      image: "/halisaha4.jpeg",
       alt: "Halısaha soyunma odaları - modern tesis imkanları",
     },
     {
       id: 5,
-      image: "/soccer-field.jpg",
+      image: "/halisaha5.jpeg",
       alt: "Futbol sahası kale alanı - halısaha kiralık detay",
     },
     {
       id: 6,
-      image: "/soccer-field.jpg",
+      image: "/halisaha6.jpeg",
       alt: "Halısaha yan çizgi görünümü - profesyonel halı saha",
     },
     {
       id: 7,
-      image: "/soccer-field.jpg",
+      image: "/halisaha7.jpeg",
       alt: "Halısaha tribün alanı - seyirci kapasiteli futbol sahası",
     },
     {
       id: 8,
-      image: "/soccer-field.jpg",
+      image: "/halisaha8.jpeg",
       alt: "Halısaha park alanı - araç park imkanı olan tesis",
     },
     {
       id: 9,
-      image: "/soccer-field.jpg",
+      image: "/halisaha9.jpeg",
       alt: "Halısaha giriş kapısı - modern halı saha tesisi entrance",
     },
   ];
