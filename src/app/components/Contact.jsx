@@ -226,9 +226,9 @@ export default function Contact() {
                 </svg>
               </div>
               <div>
-                <p className="text-gray-400 text-sm">Rezervasyon Hattı</p>
+                <p className="text-gray-400 text-sm">Halısaha sabit hat</p>
                 <a
-                  href="tel:+902125387473"
+                  href="tel:+905422733987"
                   onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
                   className="text-white text-lg font-semibold hover:text-green-400 transition-colors cursor-pointer"
                 >
@@ -260,7 +260,7 @@ export default function Contact() {
                   onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
                   className="text-white text-lg font-semibold hover:text-green-400 transition-colors cursor-pointer"
                 >
-                  +90 536 935 66 18
+                  +90 542 273 39 87
                 </a>
               </div>
             </div>
