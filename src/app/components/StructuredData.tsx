@@ -11,7 +11,7 @@ export default function StructuredData() {
       description:
         "Eyüp Yeşilpınar'da modern, ışıklı halı saha. Online rezervasyonla hemen futbol keyfine başla!",
       url: "[https://yesilpinarhalisaha.com](https://yesilpinarhalisaha.com)",
-      telephone: "+90-536-935-6618",
+      telephone: "+90-542-273-3987",
       email:
         "[yesilpinarspor1@gmail.com](mailto:yesilpinarspor1@gmail.com)",
       address: {
