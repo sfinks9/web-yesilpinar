@@ -112,7 +112,7 @@ export default function Contact() {
           </h3>
           <p className="text-gray-300 mb-4">Anında rezervasyon yapın</p>
           <a
-            href="tel:+90536936118"
+            href="tel:+905422733987"
             onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
             className="inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg transition-colors text-center"
           >
