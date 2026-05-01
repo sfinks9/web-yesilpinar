@@ -112,7 +112,7 @@ export default function Contact() {
           </h3>
           <p className="text-gray-300 mb-4">Anında rezervasyon yapın</p>
           <a
-            href="tel:+905422733987"
+            href="tel:+905326117605"
             onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
             className="inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg transition-colors text-center"
           >
@@ -142,14 +142,14 @@ export default function Contact() {
           <p className="text-gray-300 mb-4">Güncel fiyatları öğrenin</p>
           <div className="flex space-x-2">
             <a
-              href="tel:+905422733987"
+              href="tel:+905326117605"
               onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
               className="flex-1 bg-green-500 hover:bg-green-600 text-white px-3 py-2 rounded-lg transition-colors text-center text-sm"
             >
               📞 Ara
             </a>
             <a
-              href="https://wa.me/905422733987?text=Merhaba! Halısaha fiyat bilgilerini öğrenmek istiyorum."
+              href="https://wa.me/905326117605?text=Merhaba! Halısaha fiyat bilgilerini öğrenmek istiyorum."
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
@@ -180,14 +180,14 @@ export default function Contact() {
           <p className="text-gray-300 mb-4">Turnuva bilgileri</p>
           <div className="flex space-x-2">
             <a
-              href="tel:+905422733987"
+              href="tel:+905326117605"
               onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
               className="flex-1 bg-green-500 hover:bg-green-600 text-white px-3 py-2 rounded-lg transition-colors text-center text-sm"
             >
               📞 Ara
             </a>
             <a
-              href="https://wa.me/905422733987?text=Merhaba! Turnuva takvimi ve bilgileri hakkında bilgi almak istiyorum."
+              href="https://wa.me/905326117605?text=Merhaba! Turnuva takvimi ve bilgileri hakkında bilgi almak istiyorum."
               target="_blank"
               onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
               rel="noopener noreferrer"
@@ -228,7 +228,7 @@ export default function Contact() {
               <div>
                 <p className="text-gray-400 text-sm">Halısaha sabit hat</p>
                 <a
-                  href="tel:+905422733987"
+                  href="tel:+902125387473"
                   onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
                   className="text-white text-lg font-semibold hover:text-green-400 transition-colors cursor-pointer"
                 >
@@ -256,11 +256,11 @@ export default function Contact() {
               <div>
                 <p className="text-gray-400 text-sm">Genel Bilgi</p>
                 <a
-                  href="tel:+905422733987"
+                  href="tel:+905326117605"
                   onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
                   className="text-white text-lg font-semibold hover:text-green-400 transition-colors cursor-pointer"
                 >
-                  +90 542 273 39 87
+                  +90 532 611 76 05
                 </a>
               </div>
             </div>
@@ -348,7 +348,7 @@ export default function Contact() {
           {/* WhatsApp Button */}
           <div className="mt-8">
             <a
-              href="https://wa.me/905422733987?text=Merhaba! Halısaha rezervasyonu yapmak istiyorum. Müsait saatler ve fiyatlar hakkında bilgi alabilir miyim?"
+              href="https://wa.me/905326117605?text=Merhaba! Halısaha rezervasyonu yapmak istiyorum. Müsait saatler ve fiyatlar hakkında bilgi alabilir miyim?"
               target="_blank"
               onClick={() => gtag('event', 'conversion', {'send_to': 'AW-17626766486/rLXaCN7HiKgbEJa5jNVB'})}
               rel="noopener noreferrer"
